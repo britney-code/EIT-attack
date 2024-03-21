@@ -51,7 +51,7 @@
 
 ## Reults 
 
-![EIT](.\document\EIT.png)
+![EIT](./document/EIT.png)
 
 ## Acknowledgments
 
