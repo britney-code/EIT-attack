@@ -47,7 +47,7 @@ class EIT:
         torch.backends.cudnn.benchmark = False
         torch.backends.cudnn.enabled = False
 
-    def advanced_mask(self, img, p):
+    def RPM(self, img, p):
         # get width and height of the image
         s = img.shape
         b = s[0]
@@ -86,7 +86,7 @@ class EIT:
             for l in range(self.ens):
                 temp = adv.clone().detach()
                 temp = temp.cpu().numpy().transpose(0, 2, 3, 1)
-                images_tmp = self.advanced_mask(temp, self.prob)
+                images_tmp = self.RPM(temp, self.prob)
                 images_tmp = torch.from_numpy(images_tmp).permute(0, 3, 1, 2).to(self.device, dtype=torch.float32)
                 images_tmp = self.trans(images_tmp)
                 images_tmp += torch.from_numpy(np.random.uniform(low=-self.a, high=self.a, size=images_tmp.shape)).to(
