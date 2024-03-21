@@ -23,7 +23,7 @@
 
   Using `attack.py` to implement our "EIT" attack, you can run this attack as following  <br>
   ```bash 
-  python attack.py --output_dir outputs --batch_size 10  <br>
+  python attack.py --output_dir outputs --batch_size 10  
   ```
   make sure to run GPU enviroment. And adversarial examples will be generated in './outputs'.
 
