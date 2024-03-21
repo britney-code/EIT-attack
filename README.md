@@ -20,7 +20,7 @@
 
   In addition, adversarial models include adv_inception_v3(Inc-v3adv), ens3_adv_inception_v3(Inc-v3ens3), ens4_adv_inception_v3(Inc_v3ens4), ens_adv_inception_resnet_v2(IncRes-v2ens)
 
-- **Generate adversarial examples ** <br>
+- **Generate adversarial examples** <br>
 
   Using `attack.py` to implement our "EIT" attack, you can run this attack as following  <br>
 
