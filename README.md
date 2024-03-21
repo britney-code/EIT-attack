@@ -13,7 +13,7 @@
 ## Run attacks 
 - **Prepare Data**: We have placed the ImageNet-compatible dataset under the './dataset' folder. <br/>
 
-- **Prepare model**:  Download pretrained PyTorch models [tf to torch](github.com/ylhz/tf_to_pytorch_model) , which are converted from widely used Tensorflow models. Then, the model source code and weight are respectively place in './torch_nets' and './torch_nets_weight'.  <br>
+- **Prepare model**:  Download pretrained PyTorch models [tf to torch](https://github.com/ylhz/tf_to_pytorch_model) , which are converted from widely used Tensorflow models. Then, the model source code and weight are respectively place in './torch_nets' and './torch_nets_weight'.  <br>
 
   These models include inception-v3, inception-v4, inception-resnet-v2, resnet152, resnet50, resnet101. <br>
 
