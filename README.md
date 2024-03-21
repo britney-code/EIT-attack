@@ -44,9 +44,9 @@
 
 - Defense methods 
 
-  - [JPEG](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py): Refer to [here](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py).
-  - [FD](github.com/JHL-HUST/VT/blob/main/third_party/feature_distillation.py): Refer to [here]([VT/third_party/feature_distillation.py at main · JHL-HUST/VT (github.com)](https://github.com/JHL-HUST/VT/blob/main/third_party/feature_distillation.py))
-  - [Bit-Red](github.com/JHL-HUST/VT/blob/main/third_party/bit_depth_reduction.py)： Refer to [here](github.com/JHL-HUST/VT/blob/main/third_party/bit_depth_reduction.py)
+  - [JPEG](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py): Refer to [here](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py)
+  - [FD](github.com/JHL-HUST/VT/blob/main/third_party/feature_distillation.py): Refer to [here](https://github.com/JHL-HUST/VT/blob/main/third_party/feature_distillation.py)
+  - [Bit-Red](github.com/JHL-HUST/VT/blob/main/third_party/bit_depth_reduction.py): Refer to [here](github.com/JHL-HUST/VT/blob/main/third_party/bit_depth_reduction.py)
   - [NRP](https://github.com/Muzammal-Naseer/NRP): purifier=NRP, dynamic=True, base_model=Inc-v3<sub>*ens3*</sub>. Download it from corresponding official repo.
 
 ## Reults 
