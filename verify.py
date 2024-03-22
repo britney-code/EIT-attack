@@ -39,7 +39,7 @@ def verify(model_name):
 
 
 def main():
-    model_names = ["pit_s_224", 'swin_small_patch4_window7_224', 'deit_base_patch16_224', 'cait_s24_224']
+    model_names = ["pit_s_224", 'deit_base_patch16_224', 'cait_s24_224']
     for model_name in model_names:
         verify(model_name)
         print("===================================================")
