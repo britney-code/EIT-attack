@@ -1,4 +1,4 @@
-# A Whale Falls, All Thrive: Mitigating Attention Gap To  Improve Adversarial Transferability (details will be completed as soon as acception)
+# A Whale Falls, All Thrive: Mitigating Attention Gap To  Improve Adversarial Transferability 
 
 ## requirements
 - python 3.8.16 
