@@ -10,7 +10,7 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
 '''
-This code contains some interpretable code. You can use ShowColorscaleImage to visualize the gradient. 
+This code contains some interpretable code. You can use ShowGrayscaleImage to visualize the gradient. 
 Note that in order to better visualize the original image and the images after RPM and ARN, we have squared the gradient for visualization.
 '''
 def overlay_mask(img: Image.Image, mask: Image.Image, colormap: str = "jet", alpha: float = 0.5) -> Image.Image:
