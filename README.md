@@ -1,4 +1,4 @@
-# A Whale Falls, All Thrive: Mitigating Attention Gap To  Improve Adversarial Transferability [ICPR 2024]
+# A Whale Falls, All Thrive: Mitigating Attention Gap To  Improve Adversarial Transferability 
 
 ## requirements
 - python 3.8.16 
